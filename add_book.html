@@ -27,12 +27,12 @@
                     <a class="navbar-brand text-secondary" href="#">Storico Prestiti</a>
                     <a class="navbar-brand text-secondary" href="#">Help</a>
                 </div>
-                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <form class="d-none d-lg-flex" role="search">
+                <form class="d-none" role="search">
                     <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search" />
                     <button class="btn btn-outline-light" type="submit">Cerca</button>
                 </form>
@@ -77,14 +77,14 @@
         <!-- /nav-bar section -->
     </header>
     <main>
-        <div class=" p-3 row">
+        <div class=" p-5 row">
             <h1>Nuovo libro</h1>
-            <div class="mb-3 col-sm-6">
+            <div class="mb-3 col-sm-6 mt-3">
                 <label for="exampleFormControlInput1" class="form-label">Nome Autore</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="Inserisci il nome dell'autore">
             </div>
-            <div class="mb-3 col-sm-6">
+            <div class="mb-3 col-sm-6 mt-3">
                 <label for="exampleFormControlInput1" class="form-label">Cognome Autore</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="Inserisci il cognome dell'autore">
@@ -97,8 +97,9 @@
                     Titolo versione italiana
                 </div>
             </div>
-            <label for="exampleFormControlInput1" class="form-label">Genere</label>
-            <div class="mb-3 col-sm-12">
+           
+            <div class="mb-3 col-sm-12 col-lg-4">
+                 <label for="exampleFormControlInput1" class="form-label">Genere</label>
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Open this select menu</option>
                     <option value="1">One</option>
@@ -106,12 +107,12 @@
                     <option value="3">Three</option>
                 </select>
             </div>
-            <div class="mb-3 col-sm-12">
+            <div class="mb-3 col-sm-12 col-lg-4">
                 <label for="exampleFormControlInput1" class="form-label">Anno di pubblicazione</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Inserisci l'anno">
             </div>
 
-            <div class="mb-3 col-sm-12 pb-4">
+            <div class="mb-3 col-sm-12 pb-4 col-lg-4">
                 <label for="exampleFormControlInput1" class="form-label">ISBN&#35;</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1"
                     placeholder="Inserisci il codice ISBN&#35;">
